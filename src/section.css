@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    cursor: pointer;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.container {
+    width: 83.3%;
+    margin: 0 auto;
+    /* background-color: #F3F3F3; */
+    display: flex;
+}
+
+.left {
+    width: 25%;
+    height: 100vh;
+    padding: 40px;
+    border-right: 1px solid black;
+}
+
+.left>a {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.left input {
+    padding: 10px;
+    background: #F3F3F3;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.left .all {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.left .all .first-c {
+    width: 10px;
+    height: 10px;
+    background-color: #EA5959;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.left .all .second-c {
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.left .all .third-c {
+    width: 10px;
+    height: 10px;
+    background-color: #7B2CBF;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.left .all .fourth-c {
+    width: 10px;
+    height: 10px;
+    background-color: #10E0FF;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.left .all a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgb(35, 35, 35);
+    text-decoration: none;
+}
+
+.container .right {
+    width: 70%;
+    height: 100vh;
+    padding: 30px;
+    margin-left: 5%;
+}
+
+.container .right h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.container .right>input {
+    width: 80%;
+    padding: 13px;
+    background: #F3F3F3;
+    border-radius: 8px;
+    margin-top: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.container .right .all {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.container .right .all .inp2 {
+    width: 28px;
+    height: 28px;
+}
+
+.container .right .all h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5A5A5A;
+}
+
+.container .right .all span {
+    width: 150px;
+    height: 24px;
+    background: #EA5959;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .right .all span p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.container .right .all span i {
+    padding: 4px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container .right .all span i ion-icon {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
