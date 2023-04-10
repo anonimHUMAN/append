@@ -10,6 +10,7 @@ export default () => {
             <h1>{a}</h1>
         )
     }
+    console.log(createH1("salom"));
     createH1("salom")
     // console.log(inp1Value);
     function del() {
@@ -56,22 +57,22 @@ export default () => {
                 <div className="all">
                     <input type="checkbox" className="inp2" />
                     <h2>Purchase Milk & Corn Flakes</h2>
-                    <span><p>Uncategorized </p><i><ion-icon name="trash-outline"></ion-icon></i></span>
+                    <span><p>Uncategorized </p><i onClick={del}><ion-icon name="trash-outline"></ion-icon></i></span>
                 </div>
                 <div className="all">
                     <input type="checkbox" className="inp2" />
                     <h2>Pay mortgage</h2>
-                    <span><p>Uncategorized </p><i><ion-icon name="trash-outline"></ion-icon></i></span>
+                    <span><p>Uncategorized </p><i onClick={del}><ion-icon name="trash-outline"></ion-icon></i></span>
                 </div>
                 <div className="all">
                     <input type="checkbox" className="inp2" />
                     <h2>Complete Assignments</h2>
-                    <span><p>Uncategorized </p><i><ion-icon name="trash-outline"></ion-icon></i></span>
+                    <span><p>Uncategorized </p><i onClick={del}><ion-icon name="trash-outline"></ion-icon></i></span>
                 </div>
                 <div className="all">
                     <input type="checkbox" className="inp2" />
                     <h2>Replace laptop's screen</h2>
-                    <span><p>Uncategorized </p><i className="del"><ion-icon name="trash-outline"></ion-icon></i></span>
+                    <span><p>Uncategorized </p><i onClick={del}><ion-icon name="trash-outline"></ion-icon></i></span>
                 </div>
             </div>
         </div>
