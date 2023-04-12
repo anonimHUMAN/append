@@ -60,7 +60,7 @@ export default () => {
 
 
 
-                {/* <div className="all">
+                <div className="all">
                     <input type="checkbox" className="inp2" />
                     <h2>Purchase Milk & Corn Flakes</h2>
                     <span><p>Uncategorized </p><i><ion-icon name="trash-outline"></ion-icon></i></span>
@@ -79,7 +79,7 @@ export default () => {
                     <input type="checkbox" className="inp2" />
                     <h2>Replace laptop's screen</h2>
                     <span><p>Uncategorized </p><i><ion-icon name="trash-outline"></ion-icon></i></span>
-                </div> */}
+                </div>
             </div>
         </div>
     )
