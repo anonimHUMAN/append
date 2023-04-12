@@ -19,7 +19,7 @@ export default () => {
     })
     return (
         <div className="container">
-            {/* <div className="left">
+            <div className="left">
                 <a href="/">Cetegory</a><br /><br />
                 <input type="search" placeholder="Add Category" />
                 <div className="all">
@@ -38,7 +38,7 @@ export default () => {
                     <div className="fourth-c"></div>
                     <a href="/payments">Payments</a>
                 </div>
-            </div> */}
+            </div>
 
 
             <div className="right">
